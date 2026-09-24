@@ -1,6 +1,6 @@
 schema_version = "1.0.0"
 id = "import_e57"
-version = "1.0.0"
+version = "1.0.2"
 name = "E57 Point Cloud Importer"
 tagline = "Import E57 point clouds natively"
 description = "Import E57 point cloud files natively into Blender point cloud objects."
@@ -8,6 +8,7 @@ maintainer = "Quentin Misslin <misslin.quentin@gmail.com>"
 type = "add-on"
 license = ["SPDX:GPL-3.0-or-later"]
 blender_version_min = "5.0.1"
+platforms = ["windows-x64", "macos-arm64", "linux-x64"]
 
 wheels = [
     "./wheels/pyquaternion-0.9.9-py3-none-any.whl",
